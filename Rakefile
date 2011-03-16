@@ -7,3 +7,4 @@ desc 'run the specs'
 task :spec do
   sh 'rspec spec'
 end
+
