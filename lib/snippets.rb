@@ -1,4 +1,5 @@
 require 'active_record'
+
 module Snippets
-  require 'snippets/snippet'
+  autoload :Snippet,              'snippets/snippet'
 end
